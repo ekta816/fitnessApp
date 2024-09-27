@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Stats from '../components/Stats';
 
@@ -55,6 +55,11 @@ const HomeScreen = () => {
           <>
           {/* display summary totals of all workouts */}
             <View style={styles.titles}>
+            <Text style={styles.summaryTitle}>Fitness App</Text>
+            <Image 
+                source={{ uri: 'https://thewholeu.uw.edu/wp-content/uploads/watches-1.png' }} 
+                style={{ height: 200, width: '95%', borderRadius: 10, marginTop: 20, marginBottom: 80}} 
+              />
               <Text style={styles.summaryTitle}>Summary</Text>
             </View>
             <View style={styles.summary}>
@@ -105,7 +110,7 @@ const styles = StyleSheet.create({
   },
   titles: {
     alignItems: 'center',
-    marginBottom: 100,
+    marginBottom: 10,
   },
   summary: {
     textAlign: 'center',

@@ -29,6 +29,7 @@ const WorkoutScreen = () => {
   //   "duration": 60, 
   //   "workout_type": "Walking"
   // },]
+  
   useEffect(() => {
     const loadWorkouts = async () => {
       try {

@@ -122,7 +122,6 @@ const Stats = ({ workouts, close }) => {
                 }}
             />
 
-            <Text style={styles.totalText}>Total Workouts: {totalWorkouts}</Text>
         </View>
     );
 };

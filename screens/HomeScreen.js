@@ -57,7 +57,7 @@ const HomeScreen = () => {
             <View style={styles.titles}>
             <Text style={styles.summaryTitle}>Fitness App</Text>
             <Image 
-                source={{ uri: 'https://thewholeu.uw.edu/wp-content/uploads/watches-1.png' }} 
+                source={{ uri: 'https://media.istockphoto.com/id/962616086/vector/fitness-sports-and-workout-app.jpg?s=612x612&w=0&k=20&c=ko7IurEJ7p23xRIeIAu6Cw64lr3zj4Vnp2jJgvem5RA=' }} 
                 style={{ height: 200, width: '95%', borderRadius: 10, marginTop: 20, marginBottom: 80}} 
               />
               <Text style={styles.summaryTitle}>Summary</Text>
